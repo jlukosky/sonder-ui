@@ -1,6 +1,18 @@
-# my-component
+# Native combobox
 
+Provide default combobox functionality.
 
+## Purpose
+
+## Testing
+
+### Test setup
+
+### Results
+
+## Design Guidelines
+
+### Keyboard Interaction
 
 <!-- Auto Generated Below -->
 
