@@ -1,6 +1,6 @@
 # Noinput Combobox
 
-A test of a native `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. Basic functionality only, no autocomplete or filtering.
+A test of an alternative to  `<select>` that uses a `div` with `role="combobox"` as an interface along with a `div` with `role="listbox"` for options. Supports autoselection but not filtering.
 
 ## Purpose
 

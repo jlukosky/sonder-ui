@@ -1,6 +1,6 @@
 # Autoselect active option combobox
 
-A test of a native `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. Basic functionality only, no autocomplete or filtering.
+A test of an alternative to a native `<select>` that uses `div` with `role="combobox"` with an `<input>` child. Provides filtering. Instead of autocomplete the first matching option is selected.
 
 ## Purpose
 
