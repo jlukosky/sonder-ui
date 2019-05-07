@@ -1,7 +1,6 @@
 # Readonly combobox
 
-A test of an alternative to the native `<select>`
- that uses `role="combobox"` with a `<input readonly>` child.
+A test of an alternative to the native `<select>` using `role="combobox"` with a `<input readonly>` child.
 
 - Typing selects first matching option (if it exists)
 - Typing does not filter options (by design)

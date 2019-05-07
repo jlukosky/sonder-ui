@@ -1,6 +1,6 @@
 # Native combobox
 
-Provide default combobox functionality.
+The native combobox provides default combobox functionality.
 
 ## Purpose
 

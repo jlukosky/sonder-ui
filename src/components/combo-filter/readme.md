@@ -1,6 +1,6 @@
 # Combobox filter
 
-A test of a native `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. Basic functionality only, no autocomplete or filtering.
+A test of an alternative to a native `<select>` uses a `div` with `role="combobox"` with an `<input>` child. Typing filters the options while highlighting the first match. Pressing `enter` selects the highlighted match (if it exists).
 
 ## Purpose
 

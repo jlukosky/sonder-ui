@@ -1,7 +1,6 @@
 # Multiselect inline buttons combobox
 
-A test of a native `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. Basic functionality only, no autocomplete or filtering.
-
+A test of a multiselect alternative to `<select>` that uses `role="combobox"` with a `<input>` child. Selected items are added to a list within the combobox and visually appear as buttons with the input (although they immediately precede it in the DOM). Supports filtering.
 
 ## Purpose
 

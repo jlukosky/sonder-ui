@@ -1,6 +1,6 @@
 # Readonly Select
 
-A test of a `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. This approach aligns more closely to the way JAWS, NVDA, and Narrator interpret a `<select>` element, but has some significant drawbacks over the native `<select>`.
+A test of an alternative to a native `<select>` that uses `role="combobox"` with a `<input readonly>` child. This approach aligns more closely to the way JAWS, NVDA, and Narrator interpret a `<select>` element, but has some significant drawbacks over the native `<select>`.
 
 ## Purpose
 
@@ -10,9 +10,9 @@ Another element of confusion comes from the ambiguity of needing to choose betwe
 
 The native `<select>` is still a much better choice than any custom element.
 
-- The main complaint with a native `<select>` is that the options menu is not styleable
-- Custom selection components remain some of the hardest to get right. There was significant change in the pattern between aria 1.0 and aria 1.1
-- macOS and Windows interpret the roles of the native `<select>` differently, which makes it hard to choose which semantic avenue to follow. The aria spec comes down on the macOS side, but more screen reader users are on Windows.
+- The main complaint with a native `<select>` is that the options menu is not easily styled.
+- Custom selection components remain some of the hardest to get right. There was significant change in the pattern between ARIA 1.0 and ARIA 1.1
+- macOS and Windows interpret the roles of the native `<select>` differently, which makes it hard to choose which semantic avenue to follow. The ARIA spec comes down on the macOS side, but more screen reader users are on Windows.
 - There are widely varying implementations found in the wild, even from accessibility professionals. There does not seem to be a single easy consensus about how to write this, and we still get frequent questions and issues raised about this pattern
 
 ## Testing
