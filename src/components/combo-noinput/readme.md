@@ -1,11 +1,20 @@
-# Readonly Combobox
+# Noinput Combobox
 
 A test of a native `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. Basic functionality only, no autocomplete or filtering.
 
+## Purpose
 
+## Testing
+
+### Test setup
+
+### Results
+
+## Design Guidelines
+
+### Keyboard Interaction
 
 <!-- Auto Generated Below -->
-
 
 ## Properties
 
@@ -14,13 +23,11 @@ A test of a native `<select>` alternative that uses `role="combobox"` with a `<i
 | `label`   | `label`   | String label                | `string`         | `undefined` |
 | `options` | --        | Array of name/value options | `SelectOption[]` | `undefined` |
 
-
 ## Events
 
 | Event    | Description                                | Type                |
 | -------- | ------------------------------------------ | ------------------- |
 | `select` | Emit a custom select event on value change | `CustomEvent<void>` |
-
 
 ----------------------------------------------
 

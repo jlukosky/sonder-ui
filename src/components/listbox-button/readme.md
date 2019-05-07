@@ -1,11 +1,21 @@
-# Readonly Combobox
+# Listbox button
 
-A test of a native `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. Basic functionality only, no autocomplete or filtering.
+A test of a readonly single `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. Basic functionality only, no autocomplete or filtering.
 
+## Purpose
+
+## Testing
+
+### Test setup
+
+### Results
+
+## Design Guidelines
+
+### Keyboard Interaction
 
 
 <!-- Auto Generated Below -->
-
 
 ## Properties
 

@@ -2,7 +2,7 @@
 
 A test of a `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. This approach aligns more closely to the way JAWS, NVDA, and Narrator interpret a `<select>` element, but has some significant drawbacks over the native `<select>`.
 
-## Why this component?
+## Purpose
 
 Custom dropdown selection widgets have historically been difficult to implement in an accessible way. The [ARIA combobox pattern](https://www.w3.org/TR/wai-aria-practices-1.1/#combobox) altered quite a bit from ARIA 1.0 to ARIA 1.1, and browser and assistive tech support is still imperfect.
 
@@ -35,18 +35,18 @@ We then conducted a user study that included this select implementation along wi
 
 ## Design Guidelines
 
-All the usual requirements for form fields apply: label, visible focus state, percievable control boundaries, etc.
+All the usual requirements for form fields apply: label, visible focus state, perceivable control boundaries, etc.
 
 ### Keyboard Interaction
 
 This component can exist in two basic states: open and closed. There are slightly different keyboard commands available in each.
 
-#### Closed:
+#### Closed
 
 - `Down Arrow` opens the options menu and highlights the first option
 - `Type Character` opens the options menu and highlights the first option starting with the character
 
-#### Open:
+#### Open
 
 - `Down Arrow` highlights the next option, stopping at the last option
 - `Up Arrow` highlights the previous option, stopping at the first option
@@ -65,10 +65,8 @@ This version of the combobox keeps focus in the input, and communicates the high
 
 - How can you extend this component? what are the pitfalls?
 
-
 ## Using the Readonly Select component
 <!-- Auto Generated Below -->
-
 
 ## Properties
 
@@ -77,13 +75,11 @@ This version of the combobox keeps focus in the input, and communicates the high
 | `label`   | `label`   | String label                | `string`         | `undefined` |
 | `options` | --        | Array of name/value options | `SelectOption[]` | `undefined` |
 
-
 ## Events
 
 | Event    | Description                                | Type                |
 | -------- | ------------------------------------------ | ------------------- |
 | `select` | Emit a custom select event on value change | `CustomEvent<void>` |
-
 
 ----------------------------------------------
 
