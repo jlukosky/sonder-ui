@@ -1,4 +1,4 @@
-# Select readonly
+# Combobox readonly
 
 A test of an alternative to a native `<select>` that uses `role="combobox"` with a `<input readonly>` child. This approach aligns more closely to the way JAWS, NVDA, and Narrator interpret a `<select>` element, but has some significant drawbacks over the native `<select>`.
 
