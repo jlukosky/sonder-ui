@@ -1,4 +1,4 @@
-# Readonly Select
+# Select readonly
 
 A test of an alternative to a native `<select>` that uses `role="combobox"` with a `<input readonly>` child. This approach aligns more closely to the way JAWS, NVDA, and Narrator interpret a `<select>` element, but has some significant drawbacks over the native `<select>`.
 
@@ -17,7 +17,7 @@ The native `<select>` is still a much better choice than any custom element.
 
 ## Testing
 
-During the development of this component, it was consistently tested and re-tested with NVDA and JAWS on Firefox and Chrome, Narrator with Edge, VoiceOver and Safari on macOS and iOS, keyboard commands, and high contrast mode to try to weed out any obvious errors.
+During the development of this component, it was consistently tested and re-tested with NVDA and JAWS on Firefox and Chrome, Narrator with Edge, VoiceOver and Safari on macOS and iOS, keyboard commands, and high contrast mode to reduce errors.
 
 We then conducted a user study that included this select implementation along with several others with minor differences. The variations we tested included:
 
