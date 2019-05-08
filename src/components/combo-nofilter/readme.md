@@ -22,11 +22,15 @@ The native `<select>` is still a much better choice than any custom element.
 
 ### Test setup
 
+(Add more information on usability tests, including link to scenarios and list of ATs included in the study)
+
 ### Results
+
+(Pending study completion)
 
 ## Design Guidelines
 
-### Keyboard Interaction
+All the usual requirements for form fields apply: label, visible focus state, perceivable control boundaries, etc.
 
 <!-- Auto Generated Below -->
 
