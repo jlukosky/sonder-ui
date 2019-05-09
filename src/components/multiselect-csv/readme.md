@@ -2,6 +2,8 @@
 
 A test of an alternative to a native `<select>` that uses a div with `role="combobox"` with an `<input>` child. Filters values and pressing `enter` selects.
 
+As selection are made, they are added to a comma-separated list within the input field.
+
 ## Purpose
 
 Custom dropdown selection widgets have historically been difficult to implement in an accessible way. The [ARIA combobox pattern](https://www.w3.org/TR/wai-aria-practices-1.1/#combobox) altered quite a bit from ARIA 1.0 to ARIA 1.1, and browser and assistive tech support is still imperfect.

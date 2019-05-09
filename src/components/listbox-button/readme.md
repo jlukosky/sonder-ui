@@ -1,6 +1,6 @@
 # Listbox button
 
-A test of a multiselect alternative to `<select>` that uses `role="combobox"` with a `<input>` child. Selected items are added to a list above the combobox. Supports filtering.
+A test of a multiselect alternative to `<select>` that uses `role="combobox"` with a `<input>` child. Supports filtering.
 
 ## Purpose
 

@@ -2,6 +2,8 @@
 
 A test of a native `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. Basic functionality only, no autocomplete or filtering.
 
+As selections are made, they are added as buttons above the input field. These selections can be removed by clicking on the individual buttons.
+
 ## Purpose
 
 Custom dropdown selection widgets have historically been difficult to implement in an accessible way. The [ARIA combobox pattern](https://www.w3.org/TR/wai-aria-practices-1.1/#combobox) altered quite a bit from ARIA 1.0 to ARIA 1.1, and browser and assistive tech support is still imperfect.
