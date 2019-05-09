@@ -1,4 +1,4 @@
-# Combobox ultiselect native
+# Combobox multiselect native
 
 A test of a native `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. Basic functionality only, no autocomplete or filtering.
 

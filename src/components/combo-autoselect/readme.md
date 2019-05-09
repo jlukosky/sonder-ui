@@ -2,6 +2,10 @@
 
 A test of an alternative to a native `<select>` that uses `div` with `role="combobox"` with an `<input>` child. Provides filtering. Instead of autocomplete the first matching option is selected.
 
+- When the listbox popup is displayed, it contains suggested values that complete or logically correspond to the characters typed in the textbox. In - this implementation, the values in the listbox have names that start with the characters typed in the textbox.
+- The first suggestion is automatically highlighted as selected.
+- The automatically selected suggestion becomes the value of the textbox when the combobox loses focus unless the user chooses a different suggestion or changes the character string in the textbox.
+
 ## Purpose
 
 Custom dropdown selection widgets have historically been difficult to implement in an accessible way. The [ARIA combobox pattern](https://www.w3.org/TR/wai-aria-practices-1.1/#combobox) altered quite a bit from ARIA 1.0 to ARIA 1.1, and browser and assistive tech support is still imperfect.
