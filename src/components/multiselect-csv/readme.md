@@ -1,8 +1,6 @@
 # Combobox multiselect CSV
 
-A test of an alternative to a native `<select>` that uses a div with `role="combobox"` with an `<input>` child. Filters values and pressing `enter` selects.
-
-As selection are made, they are added to a comma-separated list within the input field.
+A test of an alternative to a native `<select>` that uses a div with `role="combobox"` with an `<input>` child. Filters values and pressing `enter` selects. As selection are made, they are added to a comma-separated list within the input field.
 
 ## Purpose
 

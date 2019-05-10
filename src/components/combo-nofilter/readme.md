@@ -2,8 +2,8 @@
 
 A test of an alternative to the native `<select>` using `role="combobox"` with a `<input readonly>` child.
 
-- Typing selects first matching option (if it exists)
-- Typing does not filter options (by design)
+- Typing a letter selects the first matching option (if it exists)
+- Typing a letter does not filter options (by design)
 
 ## Purpose
 

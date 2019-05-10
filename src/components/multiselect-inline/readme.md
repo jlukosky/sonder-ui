@@ -1,6 +1,6 @@
 # Combobox multiselect inline buttons
 
-A test of a multiselect alternative to `<select>` that uses `role="combobox"` with a `<input>` child. Selected items visually appear as buttons within the input (although they immediately precede it in the DOM). Supports filtering.
+A test of a multiselect alternative to `<select>` that uses `role="combobox"` with a `<input>` child. Selected items visually appear as buttons within the input (although they immediately precede it in the DOM). Supports filtering. These selections can be removed by clicking on the individual buttons or by clicking the corresponding selection in the options list.
 
 ## Purpose
 

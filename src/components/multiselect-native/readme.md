@@ -1,6 +1,6 @@
 # Combobox multiselect native
 
-A test of a native `<select>` alternative that uses `role="combobox"` with a `<input readonly>` child. Basic functionality only, no autocomplete or filtering.
+A test of a native `<select>` that supports multiple selections. Basic functionality only, no autocomplete or filtering.
 
 ## Purpose
 
